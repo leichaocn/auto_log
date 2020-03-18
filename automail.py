@@ -47,7 +47,7 @@ msText = MIMEText(text)
 ms.attach(msText)
 
 # 对要上传的附件进行文件重命名
-file_one = "one_day_simple_report.pdf" 
+file_one = "result.pdf" 
 file_two = '{}_daily_report.pdf'.format(date_now)
 if os.path.exists(file_two):
     pass
