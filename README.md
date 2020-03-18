@@ -28,10 +28,14 @@ kill -9 对应autorun.py的PID
 ## （可参考）安装pandoc
 ## 环境准备
 ### 1.下载
+```sh 
 nohup wget -P /export/record_read/ https://github.com/jgm/pandoc/releases/download/2.9.2/pandoc-2.9.2-linux-amd64.tar.gz
-
+```
 ### 2.安装
+```sh 
 tar xvzf pandoc-2.9.2-linux-amd64.tar.gz --strip-components 1 -C /usr
-
+```
 ### 3.安装latex包，用于支持中文
+```sh 
 apt-get install texlive-xetex
+```
