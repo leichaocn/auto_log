@@ -20,7 +20,7 @@ def do_job():
     # 转pdf，这里result.md是一个预先编辑好的md文件，仅引用到了上面文件执行后的图片路径。
     os.system('pandoc result.md --pdf-engine=xelatex -V mainfont=SimSun -o result.pdf')
     # 发送邮件
-    os.system('jupyter nbconvert --to notebook --execute automail.ipynb')
+    os.system('python3 automail.py')
 
 
 
