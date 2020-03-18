@@ -1,7 +1,7 @@
 """
 发送邮件程序，先用ipynb格式，方便调试。
 命令行执行命令：
-jupyter nbconvert --to notebook --execute automail.ipynb
+python3 automail.py
 
 """
 
