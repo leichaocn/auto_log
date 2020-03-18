@@ -10,7 +10,7 @@
 ### 4.autorun.py
 全流程执行代码，该文件用于定时执行整个流程。
 ## 使用方法
-环境：ubuntu，python3.5，pandoc
+环境：ubuntu16.04，python3.5，pandoc
 ### 1.编辑文件
 调试你的your_file.ipynb，result.md，配置你的automail.py、autorun.py
 ### 2.执行命令
