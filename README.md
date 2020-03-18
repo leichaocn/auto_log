@@ -14,13 +14,15 @@
 ### 1.编辑文件
 调试你的your_file.ipynb，result.md，配置你的automail.py、autorun.py
 ### 2.执行命令
-```sh nohup python3 autorun.py &
+```sh 
+nohup python3 autorun.py &
 ```
 
 执行该命令后，该autorun.py将永久运行，除非kill掉。
 终止命令：
-```sh pf -x
-    kill -9 对应autorun.py的PID
+```sh 
+pf -x
+kill -9 对应autorun.py的PID
 ```
 
 ## （可参考）安装pandoc
