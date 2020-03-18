@@ -19,7 +19,7 @@
 ## （可参考）安装pandoc
 ## 环境准备
 ### 1.下载
-nohup wget -P /export/liuzhenjie/ipython/record_read/ https://github.com/jgm/pandoc/releases/download/2.9.2/pandoc-2.9.2-linux-amd64.tar.gz
+nohup wget -P /export/record_read/ https://github.com/jgm/pandoc/releases/download/2.9.2/pandoc-2.9.2-linux-amd64.tar.gz
 
 ### 2.安装
 tar xvzf pandoc-2.9.2-linux-amd64.tar.gz --strip-components 1 -C /usr
