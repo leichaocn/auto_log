@@ -8,14 +8,12 @@
 你的日志统计主要代码，确保可以运行。该文件的作用是生成每天的统计图表。
 ### 2.result.md
 你的日志文件，该文件用于提供文本格式，通过引用文件路径，自动导入统计图表。
-### 3.automail.py
-邮件发送代码，该文件可设置发件然、收件人等。
-### 4.autorun.py
-全流程执行代码，该文件用于定时执行整个流程。
+### 3.autorun.py
+全流程执行代码，该文件用于定时执行整个流程，并可设置发件然、收件人等。
 ## 使用方法
 环境：ubuntu16.04，python3.5，pandoc
 ### 1.编辑文件
-调试你的your_file.ipynb，result.md，配置你的automail.py、autorun.py
+调试你的your_file.ipynb，result.md，配置你的autorun.py
 ### 2.执行命令
 ```sh 
 nohup python3 autorun.py &
